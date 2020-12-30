@@ -40,13 +40,6 @@ function setup() {
 
 function draw() {
   background(back_img);
-
-  player1score.on("value", function (data) {
-    player1score = data.val();
-})
-player2score.on("value", function (data) {
-  player2score = data.val();
-})
  
    if (playerCount === 2) {
      game.update(1);
