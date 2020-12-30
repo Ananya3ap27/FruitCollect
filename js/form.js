@@ -48,8 +48,8 @@ class Form{
             player.updateCount(0);
             game.update(0);
             database.ref('/').update({
-                player1score:0,
-                player2score:0
+                player1Score:0,
+                player2Score:0
             })
         });
 
